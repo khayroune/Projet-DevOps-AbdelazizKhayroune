@@ -1,11 +1,19 @@
 # Maven
-target/
-*/target/
-
-# Logs
+**/target/
 *.log
 
-# IDE
+# IntelliJ
 .idea/
-.vscode/
 *.iml
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
